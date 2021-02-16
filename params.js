@@ -16,3 +16,14 @@ addToX(8)
 x
 
 //by calling the variable in the function, you can define the variable when calling the function
+
+
+let y = 1
+
+function multiplyY(anotherNum) {
+    y = y * anotherNum
+}
+
+multiplyY(5)
+y
+x
